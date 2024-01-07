@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity3">
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="4dp"
+            android:background="#696969" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="215dp"
+            android:layout_height="190dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="172dp"
+            android:layout_marginBottom="649dp"
+            android:fontFamily="@font/poppins"
+            android:text="Log in"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="354dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="349dp"
+            android:background="@drawable/button_shape"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Username"
+            android:padding="28dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp"
+            tools:ignore="DuplicateClickableBoundsCheck,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="354dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="448dp"
+            android:background="@drawable/button_shape"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/poppins"
+            android:hint="password"
+            android:padding="28dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="37dp"
+            android:layout_marginBottom="281dp"
+            android:fontFamily="@font/poppins"
+            android:text="Forgot Password ?"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginRight="171dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/poppins"
+            android:text="alredy have account?"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:layout_width="76dp"
+            android:layout_height="78dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppins"
+            android:minHeight="48dp"
+            android:onClick="keluar"
+            android:text="keluar"
+            android:textColor="#DEBB55"
+            tools:ignore="OnClick,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-268dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/poppins"
+            android:onClick="LOGIN"
+            android:text="LOGIN"
+            android:textColor="#E1BB58" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Insta Seni</string>
+    <string name="menu_notification">notication</string>
+    <string name="menu_profile">profile</string>
+    <string name="menu_logout">logout</string>
+    <string name="menu_like">like</string>
+    <string name="menu_beranda">beranda</string>
+    <string name="menu_search">search</string>
+    <string name="menu_tambah">tambah</string>
+    <string name="todo">TODO</string>
+</resources>
